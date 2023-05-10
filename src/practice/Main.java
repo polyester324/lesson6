@@ -17,5 +17,9 @@ public class Main {
         kitty2.colour = "red";
         System.out.println(kitty2.age);
         System.out.println(kitty1.age);
+        Kitty kitty3 = new Kitty(12);
+        Kitty kitty4 = new Kitty(3, "Coul");
+        System.out.println(kitty3.age);
+        System.out.println(kitty4.age + " " + kitty4.name);
     }
 }
