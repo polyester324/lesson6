@@ -21,5 +21,9 @@ public class Main {
         Kitty kitty4 = new Kitty(3, "Coul");
         System.out.println(kitty3.age);
         System.out.println(kitty4.age + " " + kitty4.name);
+        kitty1.makeVoice();
+        System.out.println(kitty1.giveMeAgePlusOneYear());
+        kitty3.printMeAgePlusOneYear();
+
     }
 }
